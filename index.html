@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My HTML Document</title>
+    <title>Sowwy</title>
     <style>
       body {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url('images/987756.jpg');
+        background-size: cover;
+      }
+      #center-image {
+        display: block;
+        margin: 0 auto;
+      }
+      #upper-left-image {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      #upper-right-image {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+      }
+      #bottom-right-image {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+      }
+      h1 {
+        color: aquamarine;
+      }
+      p {
+        color: cornsilk;
       }
     </style>
   </head>
   <body>
-    <h1>YIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</h1>
-    <p>Kinikileg nanaman itlog ko</p>
-    <img src="https://media.tenor.com/5gdedXcVBgYAAAAi/pat-hug.gif">
-  <script>
-  alert("May sasabihin ako");
-  alert("Alam mo ba?");
-  alert("Crush Kita");
-</script>
+    <h1>Chair Up</h1>
+    <p style="font-size: 50px;">Kaya mo yan.</p>
+    
+    <figure>
+        <img src="images/menhera-cheer-up.gif" id="center-image">
+        <img src="images/cheer-up-positive-vibes.gif" id="upper-left-image" width="300px" height="300px">
+        <img src="images/cute-bear.gif" id="upper-right-image">
+      </figure>
+
+    <script>
+      alert("Pagod ka na?");
+      alert("Pahinga ka muna");
+    </script>
   </body>
 </html>
